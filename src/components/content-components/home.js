@@ -9,16 +9,15 @@ class Home extends Component {
     return (
       <div className="condiv home">
         <h1 className="title-home">
+          <span>Didas Mbalanya: </span><br/>
           <ReactTypingEffect
             className="typingeffect "
-            text={[
-              "Didas Mbalanya",
-              "Backend Software Engineer",
-              "your go to guy",
-            ]}
-            speed={50}
+            text={["Backend Software Engineer", "your go to guy", "Leader", "most of all", "your friend! :)"]}
+            speed={40}
             eraseDelay={700}
-          /><br/>
+            typingDelay={1000}
+          />
+          <br />
         </h1>
         <img src={imageLink} alt={"profile"} className="profilepic"></img>
       </div>

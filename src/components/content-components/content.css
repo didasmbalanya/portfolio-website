@@ -22,3 +22,32 @@
   font-family: monospace;
   font-style: italic;
 }
+
+.home {
+  margin-right: 20%;
+  text-align: center;
+}
+
+.about-text a {
+  color: aquamarine;
+}
+
+.about-text {
+  text-align: center;
+  position: fixed;
+}
+
+.about-paragraph {
+  line-height: 2;
+  padding: 30px 10%;
+  font-size: larger;
+  /* bac0, 0, 0, 0.7);kground: rgba( */
+}
+
+.about-heading {
+  line-height: 1.5;
+}
+
+.about-heading u {
+  color: aquamarine;
+}

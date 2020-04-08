@@ -3,8 +3,9 @@ import { Route } from "react-router-dom";
 import Navbar from "./components/nav-components/navbar";
 import Social from "./components/content-components/social";
 import Home from "./components/content-components/home";
-import Profile from "./components/content-components/profile.component"
+import About from "./components/content-components/about";
 import "./App.css";
+// import Profile from "./components/content-components/profile.component"
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
           <Social />
         </Route>
         <Route exact path="/about">
-          <Profile></Profile>
+          {/* <Profile></Profile> */}
+          <About></About>
         </Route>
       </div>
     </div>

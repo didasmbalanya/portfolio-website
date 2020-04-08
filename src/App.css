@@ -20,18 +20,19 @@ body {
   min-height: 100vh;
   display: flex;
   color: white;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .main-container {
   width: 100%;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.9);
   height: 100vh;
 }
 
 /* .condiv class is for the right side content container*/
 .condiv {
   padding: 50px;
+  align-items: center;
   /* background-color: #f4f5f9; */
   /* flex:var(--condiv-flex); */
 }
