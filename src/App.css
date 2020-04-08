@@ -24,27 +24,19 @@ body {
 }
 
 .main-container {
-  padding: 0 80px;
-  position: relative;
   width: 100%;
   background: rgba(0, 0, 0, 0.6);
   height: 100vh;
 }
 
-.main-container h1 {
-  margin: 20px 0 40px;
-  padding: 0;
-  font-size: 40px;
-  text-transform: uppercase;
-  color: aquamarine;
-  font-family: monospace;
-  font-style: oblique;
+/* .condiv class is for the right side content container*/
+.condiv {
+  padding: 50px;
+  /* background-color: #f4f5f9; */
+  /* flex:var(--condiv-flex); */
 }
 
-/* .condiv class is for the right side content container*/
-.condiv
-{
-padding: 100px ;
-background-color: #f4f5f9;
-flex:var(--condiv-flex);
+.condiv img{
+  border: groove 10px rgb(127, 255, 212, 0.5);
+  border-radius: 100%;
 }

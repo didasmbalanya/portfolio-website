@@ -6,44 +6,42 @@ class Navbar extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      NavItemActive: "",
+      NavItemActive: "Home",
     };
   }
 
   activeItem = (x) => {
-    if (this.state.NavItemId ) {
-      document
-        .getElementById(this.state.NavItemActive)
-        .classList.remove("active");
-    }
-    this.setState({ NavItemActive: x }, () => {
-      document.getElementById(this.state.NavItemActive).classList.add("active");
-    });
+    console.log("active is:", x)
   };
 
   render() {
     return (
       <nav>
         <ul>
-          <NavItem item="Home" tolink="/" active={this.activeItem}></NavItem>
+          <NavItem
+            item="Home"
+            toLink="/"
+            active={this.activeItem}
+            className="active"
+          ></NavItem>
           <NavItem
             item="About"
-            tolink="/about"
+            toLink="/about"
             active={this.activeItem}
           ></NavItem>
           <NavItem
             item="Education"
-            tolink="/education"
+            toLink="/education"
             active={this.activeItem}
           ></NavItem>
           <NavItem
             item="Skills"
-            tolink="/skills"
+            toLink="/skills"
             active={this.activeItem}
           ></NavItem>
           <NavItem
             item="Contact"
-            tolink="/contact"
+            toLink="/contact"
             active={this.activeItem}
           ></NavItem>
         </ul>

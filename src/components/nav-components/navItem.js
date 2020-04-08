@@ -9,10 +9,11 @@ class NavItem extends Component {
   }
 
   render() {
+   
     return (
       <li>
         <Link
-          className={this.activeItem}
+          className={this.props.item}
           to={this.props.toLink}
           onClick={this.props.active.bind(this, this.props.item)}
         >

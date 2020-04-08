@@ -22,4 +22,5 @@ nav ul li {
 /* css for active class */
 .active {
   font-weight: bolder;
+  color: red;
 }
