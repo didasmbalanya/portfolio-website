@@ -1,23 +1,28 @@
 import React, { Component } from "react";
 import ReactTypingEffect from "react-typing-effect";
+import HeaderReuse from "./header";
 
 const linkToChallenges = "https://github.com/didasmbalanya/Code-challenges";
 class About extends Component {
   render() {
     return (
       <div className="condiv about-text">
-        <h1 className="subtopic">Who am I ?</h1>
-        <h2 className="title-home">
+        <HeaderReuse header="Who am I ?" />
+
+        <h2 className="header-title">
           <ReactTypingEffect
             className="typingeffect "
-            text={["Backend Software Engineer", "your go to guy","A friend", "Lol"]}
+            text={[
+              "Backend Software Engineer",
+              "your go to guy",
+              "A friend",
+              "Lol",
+            ]}
             speed={50}
             eraseDelay={700}
             typingDelay={1000}
           />
-          <br />
         </h2>
-        <hr></hr>
         <div className="about-heading">
           <h1>Didas Mbalanya</h1>
           <h3>Full Stack Web Developer</h3>
@@ -53,15 +58,16 @@ class About extends Component {
               </a>
             </span>{" "}
             on my github repo
-          </p><br/>
+          </p>
+          <br />
           <p>
             I am a willing learner. I believe two will always be better than
-            one. That is to say, I am a team player, problem solver and dedicated to the
-            process. I am very passionate about problem-solving, especially when
-            it comes to doing it with code. I give my all, to satisfy not just
-            my team but for my personal growth as well. I believe in working
-            hard smartly. Given an opportunity I will be
-            nothing short of a success story.
+            one. That is to say, I am a team player, problem solver and
+            dedicated to the process. I am very passionate about
+            problem-solving, especially when it comes to doing it with code. I
+            give my all, to satisfy not just my team but for my personal growth
+            as well. I believe in working hard smartly. Given an opportunity I
+            will be nothing short of a success story.
           </p>
         </div>
       </div>
