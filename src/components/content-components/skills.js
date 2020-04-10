@@ -34,9 +34,9 @@ class Skills extends Component {
   render() {
     return (
       <div className="condiv skills">
-        <HeaderReuse header="My Skills" />
+        <HeaderReuse header="Skills" />
         <div className="skills-box">
-          <ul>
+          <ul className="list-group">
             <SampleCard
               value={this.state.myskills}
               cardTitle="Technical skills"

@@ -10,7 +10,6 @@ class HeaderReuse extends Component {
     return (
       <div className="header-title">
         <h1 className="">{this.props.header}</h1>
-        <hr />
       </div>
     );
   }

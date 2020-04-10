@@ -9,9 +9,9 @@ class About extends Component {
       <div className="condiv about-text">
         <HeaderReuse header="Who am I ?" />
 
-        <h2 className="header-title">
+        <h2 >
           <ReactTypingEffect
-            className="typingeffect "
+            className="typingeffect type-auto"
             text={[
               "Backend Software Engineer",
               "your go to guy",

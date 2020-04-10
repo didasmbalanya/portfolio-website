@@ -17,13 +17,20 @@
 }
 
 .header-title {
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   text-align: center;
   font-size: 30px;
   text-transform: uppercase;
   color: aquamarine;
   font-family: monospace;
   font-style: italic;
+  /* border-bottom: 1px solid #ffffff; */
+}
+
+.type-auto{
+  font-size: 30px;
+  text-transform: uppercase;
+  color: aquamarine;
 }
 
 .home {
@@ -47,14 +54,10 @@
 }
 
 .about-paragraph {
-  line-height: 2;
-  padding: 30px 10%;
-  font-size: larger;
-  /* bac0, 0, 0, 0.7);kground: rgba( */
-}
-
-.about-heading {
   line-height: 1.5;
+  padding: 30px 10%;
+  font-size: large;
+
 }
 
 .about-heading u {
@@ -94,9 +97,33 @@
   font-weight: bold;
 }
 
-.card-header{
-  color: aquamarine;
-  text-align: center;
-  border-bottom: 2px solid white;
+.blogs .card{
+  width: 95%;
+}
+
+.blogs .card-header{
+  border-bottom: 2px solid aquamarine;
   padding: 10px;
+  background:#343a40;
+}
+
+.blogs button{
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 0px;
+}
+.white-text{
+  color: white;
+  text-decoration: underline;
+}
+.hovers:hover{
+  color: aquamarine;
+}
+
+.blogs .card-body{
+  background: #454d55;
+}
+.blogs .card-body span{
+  color: aquamarine
 }

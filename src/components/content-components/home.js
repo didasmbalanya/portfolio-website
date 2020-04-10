@@ -10,7 +10,7 @@ class Home extends Component {
     return (
       <div className="condiv home">
         <HeaderReuse header="Didas Mbalanya" />
-        <h1 className="header-title">
+        <h1 className="type-auto">
           <ReactTypingEffect
             className="typingeffect "
             text={[

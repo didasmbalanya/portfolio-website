@@ -9,7 +9,7 @@ class Education extends Component {
   render() {
     return (
       <div className="condiv">
-        <HeaderReuse header="My Education"/>
+        <HeaderReuse header="Education"/>
         <Widecard
           title="Cisco CCNA CyberOps Security"
           where="Cisco NetAcademy Online"
